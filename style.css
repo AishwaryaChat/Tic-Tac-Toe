@@ -1,0 +1,53 @@
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 600px;
+  height: 605px;
+  background-color: #deede6;
+  margin: 50px auto;
+}
+
+.cell {
+  font-family: "Permanent Marker", cursive;
+  border: 1px solid WHITE;
+  cursor: pointer;
+  font-size: 100px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+  color: rgb(147, 145, 145);
+}
+
+.winner {
+  background-color: #218b82;
+  color: rgb(253, 251, 251);
+  -webkit-transition: background-color 00ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}
+
+.restart-game {
+  padding: 10px;
+  background-color: aquamarine;
+  border: 1px solid #218b82;
+  border-radius: 50px;
+  color: #218b82;
+  font-weight: bold;
+}
+
+.winning-message {
+    height: 60px;
+  color: #218b82;
+  font-size: 50px;
+}

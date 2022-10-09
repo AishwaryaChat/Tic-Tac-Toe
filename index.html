@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta harset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div class="game-container">
+      <div class="winning-message" id="winningMessage">
+        <div id="winningMessageText"></div>
+      </div>
+      <div class="board" id="board">
+        <div
+          data-cell-index="0"
+          class="cell"
+          id="cell-0"
+          data-cell
+          onclick
+        ></div>
+        <div data-cell-index="1" class="cell" id="cell-1" data-cell></div>
+        <div data-cell-index="2" class="cell" id="cell-2" data-cell></div>
+        <div data-cell-index="3" class="cell" id="cell-3" data-cell></div>
+        <div data-cell-index="4" class="cell" id="cell-4" data-cell></div>
+        <div data-cell-index="5" class="cell" id="cell-5" data-cell></div>
+        <div data-cell-index="6" class="cell" id="cell-6" data-cell></div>
+        <div data-cell-index="7" class="cell" id="cell-7" data-cell></div>
+        <div data-cell-index="8" class="cell" id="cell-8" data-cell></div>
+      </div>
+
+      <button class="restart-game" id="restart">Restart</button>
+    </div>
+    <script src="constants.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
