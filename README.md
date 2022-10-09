@@ -1,5 +1,11 @@
 # Tic-Tac-Toe
 
+
+
+[Demo](https://user-images.githubusercontent.com/19374847/194767834-05444ec7-7603-4f3a-95a8-d7c6b335e268.mov)
+
+
+
 This is a simple project developing a tic-tac-toe game. The project is especislly done for newbie programmers who are trying to learn javascript, html and css. If you trying to learn how you can make a html page dynamic, backing it up with some scripting, here you go.
 
 ## How to use?
