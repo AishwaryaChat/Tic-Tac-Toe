@@ -2,7 +2,8 @@
 
 
 
-[Demo](https://user-images.githubusercontent.com/19374847/194767834-05444ec7-7603-4f3a-95a8-d7c6b335e268.mov)
+![tic-tac-toe](https://user-images.githubusercontent.com/19374847/194768469-f5c42130-cc50-44f0-b31b-bb4e9c287710.gif)
+
 
 
 
